@@ -1,11 +1,10 @@
 # 👋 Hi, I’m Isaac  
 
-### From Assembly to Cloud ☁️ | Systems, Backend & Hardware Developer
-
+### From Assembly to Cloud ☁️ | Systems, Backend & Embedded Linux Developer  
 
 🎓 **Computer Engineering Student**  
-💡 Passionate about software development, system design, and applied science.  
-🔧 Experienced in multiple academic and personal projects, from low-level assembly and hardware description to backend services, web applications, databases, and cloud platforms.  
+💡 Passionate about system architecture, embedded Linux, low-level programming, and scalable backend development.  
+🔧 I enjoy building complete systems — from hardware logic and assembly to APIs and cloud deployment.
 
 ---
 
@@ -13,17 +12,18 @@
 - Software development in **C, C++, Java, Python, and JavaScript**  
 - Backend development with **Node.js** and **NestJS**  
 - Database design and management with **SQL, PostgreSQL, and Microsoft SQL Server**  
-- Cloud services experience with **Azure (virtual machines, deployments)** and **Render**  
-- Programming with **x86 Assembly** and **low-level systems**  
-- Writing and maintaining **Makefiles** for project automation  
+- Cloud services experience with **Azure, AWS, and Render**  
+- Programming with **x86 & ARM Assembly**  
+- Embedded Linux development using **Yocto Project**  
+- Writing and maintaining **Makefiles** for build automation  
 - Automation and scripting with **Bash**  
-- Experimenting with **embedded systems, Linux, and Yocto Project**  
-- Hardware description using **SystemVerilog (HDL)** for digital system design and verification  
-- Applying programming to **scientific and engineering projects**  
+- Hardware description using **SystemVerilog (HDL)**  
+- Full-stack hardware-to-web system integration  
 
 ---
 
 ## 💻 Languages & Tools
+
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
@@ -38,6 +38,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -45,44 +46,49 @@
 ---
 
 ## 📂 Featured Projects
-- 🔗 [Interconnect Simulator](https://github.com/issolis/InterconnectSimulator)  
-  *Simulation of a distributed system interconnect written in **C++**, focusing on communication and data flow between nodes.*  
 
-- 🔗 [MusicTree](https://github.com/AlbertVega/MusicTree) *(Collaboration)*  
-  *Developed the entire backend using **Node.js** and **NestJS**, handling data management, APIs, and server logic.*  
+### 🔗 [Embedded Vehicle – Yocto-Based Remote Control System](https://github.com/kronk99/Embedded_vehicle)  
+Custom embedded Linux vehicle control platform built from scratch.  
+Developed a **tailored Linux image using Yocto Project** optimized for hardware control on Raspberry Pi.  
+Implemented modular motor control logic, GPIO abstraction, REST APIs (Flask), live camera streaming, ultrasonic sensor monitoring, and systemd autostart services.  
+Integrated a web-based interface enabling real-time remote control of a physical vehicle.  
+Demonstrates embedded Linux customization, hardware-software integration, and full-stack system design.
 
-- 🔗 [GranTrackx86](https://github.com/issolis/GranTrackx86)  
-  *A simple racing game written entirely in **x86 Assembly**, showcasing low-level programming and graphics handling. The previous API was written in JavaScript.*  
+---
 
-- 🔗 [NPU_MATRIX](https://github.com/issolis/NPU_MATRIX)  
-  *Development of a basic Neural Processing Unit (NPU) on FPGA, written in **SystemVerilog**, showcasing hardware acceleration and digital design skills.*  
+### 🔗 [Interconnect Simulator](https://github.com/issolis/InterconnectSimulator)  
+C++ simulation of a distributed system interconnect modeling communication and data flow between nodes.
 
-- 🔗 [TxtProcessing-ARM](https://github.com/issolis/TxtProcessing-ARM)  
-  *Text processing project implemented in **ARM Assembly**, generating a word histogram to demonstrate low-level programming on ARM architecture.*  
+### 🔗 [MusicTree](https://github.com/AlbertVega/MusicTree) *(Collaboration)*  
+Backend built using **Node.js** and **NestJS**, handling APIs and data management.
 
-- 🔗 [Eagle-Defender](https://github.com/kunZhen/Eagle-Defender) *(Collaboration)*  
-  *Large-scale game project written in **Python**. Contributed extensively to core mechanics and system logic.  
-  Some components no longer run due to dependencies and lost virtual machines, but the repository showcases complex game development experience.*  
+### 🔗 [GranTrackx86](https://github.com/issolis/GranTrackx86)  
+Racing game written entirely in **x86 Assembly**, demonstrating low-level memory and graphics control.
 
-- 🔗 [Python-Portfolio](https://github.com/issolis/Python-Portfolio)  
-  *Collection of solved exercises from a **Python Udemy course**, covering fundamentals, problem-solving, and practical applications.* 
+### 🔗 [NPU_MATRIX](https://github.com/issolis/NPU_MATRIX)  
+Basic Neural Processing Unit implemented on FPGA using **SystemVerilog**.
 
-- 🔗 [PacCEMan](https://github.com/issolis/PacCEMan)  
-*Hybrid Pac-Man style game: logic implemented in **C** (enemy pathfinding with **A***, collision detection, optimized custom data structures) and visuals in **Java**.  
-Designed as a **client-server** architecture, showcasing both low-level optimization and high-level UI integration.*  
+### 🔗 [TxtProcessing-ARM](https://github.com/issolis/TxtProcessing-ARM)  
+Text processing system in **ARM Assembly**, generating word histograms.
 
-- 🔗 [API Hospitec](https://github.com/issolis/api-hospitec)  
-  *RESTful API built with **NestJS**, connected to a cloud-hosted database on **AWS**.  
-  Focused on scalability, clean architecture, and cloud deployment.*  
+### 🔗 [PacCEMan](https://github.com/issolis/PacCEMan)  
+Hybrid C + Java client-server game with A* pathfinding and optimized data structures.
 
+### 🔗 [API Hospitec](https://github.com/issolis/api-hospitec)  
+RESTful API built with **NestJS**, deployed with a cloud-hosted database on AWS.
 
+### 🔗 [Eagle-Defender](https://github.com/kunZhen/Eagle-Defender) *(Collaboration)*  
+Large-scale Python game project focusing on core mechanics and system logic.
+
+### 🔗 [Python-Portfolio](https://github.com/issolis/Python-Portfolio)  
+Collection of structured Python problem-solving implementations.
 
 ---
 
 ## 📊 GitHub Stats
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=issolis&layout=compact&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=issolis&layout=compact&theme=radical)
 
 ---
 
 ## 📫 Contact Me
-- Email: **issolis@estudiantec.cr**  
+- Email: **issolis@estudiantec.cr**
