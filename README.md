@@ -47,7 +47,7 @@
 
 ## 📂 Featured Projects
 
-### 🔗 [Embedded Vehicle – Yocto-Based Remote Control System](https://github.com/kronk99/Embedded_vehicle)  
+### 🔗 [Embedded Vehicle – Yocto-Based Remote Control System](https://github.com/kronk99/Embedded_vehicle) *(Collaboration)*  
 Custom embedded Linux vehicle control platform built from scratch.  
 Developed a **tailored Linux image using Yocto Project** optimized for hardware control on Raspberry Pi.  
 Implemented modular motor control logic, GPIO abstraction, REST APIs (Flask), live camera streaming, ultrasonic sensor monitoring, and systemd autostart services.  
