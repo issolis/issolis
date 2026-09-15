@@ -1,8 +1,8 @@
 # Hi, I'm Isaac
 
-### Computer Engineer: Systems, Backend and Embedded Linux
+### Computer Engineering Student. Systems, Backend and Embedded Linux
 
-Computer Engineering student, currently interning at Intel on product and test development. I move between layers that most people keep separate: hardware description and low-level C++ at the bottom, embedded Linux and distributed systems in the middle, and backend APIs and cloud deployment at the top. Lately I've been especially drawn to the space where machine learning meets systems, federated learning, privacy attacks on gradients, and the engineering it takes to make distributed training actually work.
+Computer Engineering student at TEC, currently interning at Intel on product and test development. I work across hardware description and low-level C++, embedded Linux, and backend APIs with cloud deployment. My undergraduate thesis is on privacy attacks in federated learning, which is also what led me to build FedSol.
 
 ---
 
