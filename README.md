@@ -8,7 +8,7 @@ Computer Engineering student. I work across the full stack of a computing system
 
 ## What I work on
 
-- Software development in C, C++, Java, Python and JavaScript
+- Software development in C, C++, Java, Python, JavaScript and TypeScript
 - Backend development with Node.js, Express and NestJS
 - Database design and management with SQL, PostgreSQL and Microsoft SQL Server
 - Cloud services on Azure, AWS and Render
@@ -27,6 +27,7 @@ Computer Engineering student. I work across the full stack of a computing system
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
@@ -53,6 +54,12 @@ Hybrid C++/Python framework for federated learning, built around a client/server
 The C++ side handles the networking layer, the federation protocol, the JSON-based configuration management and the orchestration of training rounds across clients. The Python side performs the actual machine learning work through modular components for model building, training, dataset handling, loss functions, evaluation and metric reporting. Configurations select the model architecture and the task at runtime, and the framework supports object detection workloads such as YOLO in addition to classification.
 
 The project covers end-to-end concerns of a distributed training system: a binary protocol for transferring model weights between server and clients, weight validation against the declared architecture, per-run statistics and reports, and a clean separation between transport, configuration and training logic.
+
+### [BankSystem — Secure Banking System (DDD)](https://github.com/issolis/BankSystem)
+
+Proof of Concept of a secure banking system built with Domain-Driven Design, implementing the Biba and Bell-LaPadula security models across independent microservices.
+
+The system is split into four services — IAM for identity and authentication, BankingCore for accounts and transactions enforcing the Biba integrity model (no write up), Assets for VIP financial assets enforcing the Bell-LaPadula confidentiality model (no read up), and an API Gateway as the single entry point. Each service runs independently and the whole system deploys to Kubernetes via Minikube, with a Makefile driving build, deploy and teardown.
 
 ### [Embedded Vehicle — Yocto-Based Remote Control System](https://github.com/kronk99/Embedded_vehicle) (collaboration)
 Custom embedded Linux platform for a remote-controlled vehicle, built from scratch. A tailored Linux image was produced with the Yocto Project for hardware control on Raspberry Pi. The system includes modular motor control logic, GPIO abstraction, REST APIs in Flask, live camera streaming, ultrasonic sensor monitoring and systemd autostart services, all exposed through a web interface for real-time control of the physical vehicle. It exercises embedded Linux customization, hardware-software integration and full-stack system design.
@@ -89,11 +96,6 @@ Collection of structured Python problem-solving implementations.
 
 ---
 
-## GitHub stats
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=issolis&layout=compact&theme=radical)
-
----
 
 ## Contact
 
