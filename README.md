@@ -1,9 +1,8 @@
 # Hi, I'm Isaac
 
-### From Assembly to Cloud — Systems, Backend and Embedded Linux Developer
+### Computer Engineer — Systems, Backend and Embedded Linux
 
-Computer Engineering student. I work across the full stack of a computing system: hardware description and assembly at the bottom, embedded Linux and systems software in the middle, and APIs, databases and cloud deployment at the top. I am most interested in projects where these layers have to talk to each other.
-
+Computer Engineering student, currently interning at Intel on product and test development. I move between layers that most people keep separate: hardware description and low-level C++ at the bottom, embedded Linux and distributed systems in the middle, and backend APIs and cloud deployment at the top. Lately I've been especially drawn to the space where machine learning meets systems, federated learning, privacy attacks on gradients, and the engineering it takes to make distributed training actually work.
 ---
 
 ## What I work on
